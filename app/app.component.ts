@@ -70,7 +70,7 @@ import { HeroService } from './hero.service'
 })
 export class AppComponent implements OnInit  { 
 	title = 'Tour of Heroes';
-	heroes = HEROES;
+	heroes: Hero[];
 	selectedHero: Hero;
 
 	constructor(private heroService: HeroService) {
