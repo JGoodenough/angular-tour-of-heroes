@@ -10,7 +10,6 @@ import { Component } from '@angular/core';
 	  	<a routerLink="/heroes" routerLinkActive="active">Heroes</a>
 		</nav>
 		<router-outlet></router-outlet>
-		<my-heroes></my-heroes>
 	`
 	,
 styleUrls: ['app.component.css']
